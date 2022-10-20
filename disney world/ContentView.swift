@@ -9,13 +9,24 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView{
+                VStack {
+                        Image("disney")
+                            .resizable()
+                            .scaledToFit()
+                            .ignoresSafeArea()
+                    NavigationLink{
+                        tabviwe()
+                    } label:{
+                        Image("flightE")
+                            .resizable()
+                            .scaledToFit()
+                            .clipShape(Circle())
+                            .frame(width: 100)
+                    }
+                }
+                .navigationTitle("")
         }
-        .padding()
     }
 }
 

@@ -7,18 +7,102 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		281F93332901A6EB0080CDB0 /* Travel October.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 281F93322901A6EB0080CDB0 /* Travel October.ttf */; };
+		281F93352901BE150080CDB0 /* youtubedata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281F93342901BE150080CDB0 /* youtubedata.swift */; };
+		281F933A2901C91C0080CDB0 /* youtubeview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281F93392901C91C0080CDB0 /* youtubeview.swift */; };
+		286DC01E28FFE16C00D61E1B /* movielist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286DC01D28FFE16C00D61E1B /* movielist.swift */; };
+		286DC02028FFE33E00D61E1B /* movierow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286DC01F28FFE33E00D61E1B /* movierow.swift */; };
+		286DC02728FFE47300D61E1B /* moviedata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286DC02628FFE47300D61E1B /* moviedata.swift */; };
+		286DC029290007C900D61E1B /* DisneyIntro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 286DC028290007C900D61E1B /* DisneyIntro.mp3 */; };
+		286DC02B29000BDB00D61E1B /* National Cartoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 286DC02A29000BDB00D61E1B /* National Cartoon.ttf */; };
+		286DC02E290012BF00D61E1B /* Cutest Round.otf in Resources */ = {isa = PBXBuildFile; fileRef = 286DC02D290012BF00D61E1B /* Cutest Round.otf */; };
+		286DC030290015BA00D61E1B /* Fairy Godmother DEMO.otf in Resources */ = {isa = PBXBuildFile; fileRef = 286DC02F290015BA00D61E1B /* Fairy Godmother DEMO.otf */; };
+		286DC0382900183000D61E1B /* Monster AG.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 286DC0372900183000D61E1B /* Monster AG.ttf */; };
+		286DC04429001B4D00D61E1B /* A Bug s Life.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 286DC04329001B4D00D61E1B /* A Bug s Life.ttf */; };
+		286DC04D2900200500D61E1B /* movie2row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286DC04C2900200500D61E1B /* movie2row.swift */; };
+		286DC04F290020ED00D61E1B /* movie2data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286DC04E290020ED00D61E1B /* movie2data.swift */; };
+		286DC0512900239600D61E1B /* introdution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286DC0502900239600D61E1B /* introdution.swift */; };
+		286DC07B290145F600D61E1B /* character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286DC07A290145F600D61E1B /* character.swift */; };
+		286DC07D2901461100D61E1B /* Aversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286DC07C2901461100D61E1B /* Aversion.swift */; };
+		286DC07F2901461D00D61E1B /* Lversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286DC07E2901461D00D61E1B /* Lversion.swift */; };
+		286DC08229014A6D00D61E1B /* introductionlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286DC08129014A6D00D61E1B /* introductionlist.swift */; };
+		286DC08429014A8900D61E1B /* characterlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286DC08329014A8900D61E1B /* characterlist.swift */; };
+		286DC08829014AAF00D61E1B /* Aversionlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286DC08729014AAF00D61E1B /* Aversionlist.swift */; };
+		286DC08A29014ABB00D61E1B /* Lversionlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286DC08929014ABB00D61E1B /* Lversionlist.swift */; };
+		286DC08F290151AE00D61E1B /* allymovie2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286DC08E290151AE00D61E1B /* allymovie2.swift */; };
+		286DC0952901529B00D61E1B /* Forzenmovie2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286DC0942901529B00D61E1B /* Forzenmovie2.swift */; };
+		286DC0972901537E00D61E1B /* allymovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286DC0962901537E00D61E1B /* allymovie.swift */; };
+		286DC099290153BC00D61E1B /* Forzenmovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286DC098290153BC00D61E1B /* Forzenmovie.swift */; };
+		286DC09B290155E900D61E1B /* Fintroductionlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286DC09A290155E900D61E1B /* Fintroductionlist.swift */; };
+		286DC09D2901560400D61E1B /* Fcharacterlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286DC09C2901560400D61E1B /* Fcharacterlist.swift */; };
+		286DC09F2901561A00D61E1B /* FAversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286DC09E2901561A00D61E1B /* FAversion.swift */; };
+		286DC0A12901562700D61E1B /* FLversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286DC0A02901562700D61E1B /* FLversion.swift */; };
+		286DC0A3290156AE00D61E1B /* FAversionlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286DC0A2290156AE00D61E1B /* FAversionlist.swift */; };
+		286DC0A5290156BF00D61E1B /* FLversionlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286DC0A4290156BF00D61E1B /* FLversionlist.swift */; };
+		286DC0A92901633A00D61E1B /* NewWaltDisneyUi-8YdA.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 286DC0A82901633A00D61E1B /* NewWaltDisneyUi-8YdA.ttf */; };
+		286DC0AB290164A900D61E1B /* Donuts Snacky Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 286DC0AA290164A900D61E1B /* Donuts Snacky Regular.ttf */; };
+		286DC0AF29016D7A00D61E1B /* tabviwe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286DC0AE29016D7A00D61E1B /* tabviwe.swift */; };
 		28B1925428FBD9AA002E6FBD /* disney_worldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B1925328FBD9AA002E6FBD /* disney_worldApp.swift */; };
 		28B1925628FBD9AA002E6FBD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B1925528FBD9AA002E6FBD /* ContentView.swift */; };
 		28B1925828FBD9AC002E6FBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B1925728FBD9AC002E6FBD /* Assets.xcassets */; };
 		28B1925B28FBD9AC002E6FBD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B1925A28FBD9AC002E6FBD /* Preview Assets.xcassets */; };
+		28B1926628FBE758002E6FBD /* ig_page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B1926528FBE758002E6FBD /* ig_page.swift */; };
+		28B1926A28FEA250002E6FBD /* ig_data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B1926928FEA250002E6FBD /* ig_data.swift */; };
+		28B1927028FEB1E2002E6FBD /* Eric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B1926F28FEB1E2002E6FBD /* Eric.swift */; };
+		28B1927228FEB882002E6FBD /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B1927128FEB882002E6FBD /* home.swift */; };
+		28D0286028FF290800714A3C /* linkdetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D0285F28FF290800714A3C /* linkdetail.swift */; };
+		28F1CDE828FED56700801BC2 /* linkdata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F1CDE728FED56700801BC2 /* linkdata.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		281F93322901A6EB0080CDB0 /* Travel October.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Travel October.ttf"; sourceTree = "<group>"; };
+		281F93342901BE150080CDB0 /* youtubedata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = youtubedata.swift; sourceTree = "<group>"; };
+		281F93392901C91C0080CDB0 /* youtubeview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = youtubeview.swift; sourceTree = "<group>"; };
+		286DC01C28FFDBA000D61E1B /* disney-world-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "disney-world-Info.plist"; sourceTree = SOURCE_ROOT; };
+		286DC01D28FFE16C00D61E1B /* movielist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movielist.swift; sourceTree = "<group>"; };
+		286DC01F28FFE33E00D61E1B /* movierow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movierow.swift; sourceTree = "<group>"; };
+		286DC02628FFE47300D61E1B /* moviedata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moviedata.swift; sourceTree = "<group>"; };
+		286DC028290007C900D61E1B /* DisneyIntro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DisneyIntro.mp3; sourceTree = "<group>"; };
+		286DC02A29000BDB00D61E1B /* National Cartoon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "National Cartoon.ttf"; sourceTree = "<group>"; };
+		286DC02C29000C3C00D61E1B /* disney world.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "disney world.entitlements"; sourceTree = "<group>"; };
+		286DC02D290012BF00D61E1B /* Cutest Round.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cutest Round.otf"; sourceTree = "<group>"; };
+		286DC02F290015BA00D61E1B /* Fairy Godmother DEMO.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fairy Godmother DEMO.otf"; sourceTree = "<group>"; };
+		286DC0372900183000D61E1B /* Monster AG.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Monster AG.ttf"; sourceTree = "<group>"; };
+		286DC04329001B4D00D61E1B /* A Bug s Life.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A Bug s Life.ttf"; sourceTree = "<group>"; };
+		286DC04C2900200500D61E1B /* movie2row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movie2row.swift; sourceTree = "<group>"; };
+		286DC04E290020ED00D61E1B /* movie2data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movie2data.swift; sourceTree = "<group>"; };
+		286DC0502900239600D61E1B /* introdution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = introdution.swift; sourceTree = "<group>"; };
+		286DC07A290145F600D61E1B /* character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = character.swift; sourceTree = "<group>"; };
+		286DC07C2901461100D61E1B /* Aversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aversion.swift; sourceTree = "<group>"; };
+		286DC07E2901461D00D61E1B /* Lversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lversion.swift; sourceTree = "<group>"; };
+		286DC08129014A6D00D61E1B /* introductionlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = introductionlist.swift; sourceTree = "<group>"; };
+		286DC08329014A8900D61E1B /* characterlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = characterlist.swift; sourceTree = "<group>"; };
+		286DC08729014AAF00D61E1B /* Aversionlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aversionlist.swift; sourceTree = "<group>"; };
+		286DC08929014ABB00D61E1B /* Lversionlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lversionlist.swift; sourceTree = "<group>"; };
+		286DC08E290151AE00D61E1B /* allymovie2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allymovie2.swift; sourceTree = "<group>"; };
+		286DC0942901529B00D61E1B /* Forzenmovie2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forzenmovie2.swift; sourceTree = "<group>"; };
+		286DC0962901537E00D61E1B /* allymovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allymovie.swift; sourceTree = "<group>"; };
+		286DC098290153BC00D61E1B /* Forzenmovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forzenmovie.swift; sourceTree = "<group>"; };
+		286DC09A290155E900D61E1B /* Fintroductionlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fintroductionlist.swift; sourceTree = "<group>"; };
+		286DC09C2901560400D61E1B /* Fcharacterlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fcharacterlist.swift; sourceTree = "<group>"; };
+		286DC09E2901561A00D61E1B /* FAversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAversion.swift; sourceTree = "<group>"; };
+		286DC0A02901562700D61E1B /* FLversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLversion.swift; sourceTree = "<group>"; };
+		286DC0A2290156AE00D61E1B /* FAversionlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAversionlist.swift; sourceTree = "<group>"; };
+		286DC0A4290156BF00D61E1B /* FLversionlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLversionlist.swift; sourceTree = "<group>"; };
+		286DC0A82901633A00D61E1B /* NewWaltDisneyUi-8YdA.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NewWaltDisneyUi-8YdA.ttf"; sourceTree = "<group>"; };
+		286DC0AA290164A900D61E1B /* Donuts Snacky Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Donuts Snacky Regular.ttf"; sourceTree = "<group>"; };
+		286DC0AE29016D7A00D61E1B /* tabviwe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabviwe.swift; sourceTree = "<group>"; };
 		28B1925028FBD9AA002E6FBD /* disney world.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "disney world.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B1925328FBD9AA002E6FBD /* disney_worldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = disney_worldApp.swift; sourceTree = "<group>"; };
 		28B1925528FBD9AA002E6FBD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		28B1925728FBD9AC002E6FBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28B1925A28FBD9AC002E6FBD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		28B1926528FBE758002E6FBD /* ig_page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ig_page.swift; sourceTree = "<group>"; };
+		28B1926928FEA250002E6FBD /* ig_data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ig_data.swift; sourceTree = "<group>"; };
+		28B1926F28FEB1E2002E6FBD /* Eric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eric.swift; sourceTree = "<group>"; };
+		28B1927128FEB882002E6FBD /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
+		28D0285F28FF290800714A3C /* linkdetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = linkdetail.swift; sourceTree = "<group>"; };
+		28F1CDE728FED56700801BC2 /* linkdata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = linkdata.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +116,107 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		281F93362901BE1C0080CDB0 /* youtube */ = {
+			isa = PBXGroup;
+			children = (
+				281F93342901BE150080CDB0 /* youtubedata.swift */,
+				281F93392901C91C0080CDB0 /* youtubeview.swift */,
+			);
+			path = youtube;
+			sourceTree = "<group>";
+		};
+		286DC02328FFE3AA00D61E1B /* movie */ = {
+			isa = PBXGroup;
+			children = (
+				286DC01D28FFE16C00D61E1B /* movielist.swift */,
+				286DC01F28FFE33E00D61E1B /* movierow.swift */,
+				286DC02628FFE47300D61E1B /* moviedata.swift */,
+			);
+			path = movie;
+			sourceTree = "<group>";
+		};
+		286DC02428FFE3FC00D61E1B /* link */ = {
+			isa = PBXGroup;
+			children = (
+				28F1CDE728FED56700801BC2 /* linkdata.swift */,
+				28D0285F28FF290800714A3C /* linkdetail.swift */,
+			);
+			path = link;
+			sourceTree = "<group>";
+		};
+		286DC02528FFE41500D61E1B /* ig */ = {
+			isa = PBXGroup;
+			children = (
+				28B1926F28FEB1E2002E6FBD /* Eric.swift */,
+				28B1926928FEA250002E6FBD /* ig_data.swift */,
+				28B1926528FBE758002E6FBD /* ig_page.swift */,
+			);
+			path = ig;
+			sourceTree = "<group>";
+		};
+		286DC04929001EA100D61E1B /* movie2 */ = {
+			isa = PBXGroup;
+			children = (
+				286DC04C2900200500D61E1B /* movie2row.swift */,
+				286DC04E290020ED00D61E1B /* movie2data.swift */,
+			);
+			path = movie2;
+			sourceTree = "<group>";
+		};
+		286DC0802901462900D61E1B /* movie3 */ = {
+			isa = PBXGroup;
+			children = (
+				286DC0502900239600D61E1B /* introdution.swift */,
+				286DC07A290145F600D61E1B /* character.swift */,
+				286DC07C2901461100D61E1B /* Aversion.swift */,
+				286DC07E2901461D00D61E1B /* Lversion.swift */,
+			);
+			path = movie3;
+			sourceTree = "<group>";
+		};
+		286DC08D2901518100D61E1B /* ally */ = {
+			isa = PBXGroup;
+			children = (
+				286DC0962901537E00D61E1B /* allymovie.swift */,
+				286DC08E290151AE00D61E1B /* allymovie2.swift */,
+				286DC08129014A6D00D61E1B /* introductionlist.swift */,
+				286DC08329014A8900D61E1B /* characterlist.swift */,
+				286DC08729014AAF00D61E1B /* Aversionlist.swift */,
+				286DC08929014ABB00D61E1B /* Lversionlist.swift */,
+			);
+			path = ally;
+			sourceTree = "<group>";
+		};
+		286DC090290151E800D61E1B /* font */ = {
+			isa = PBXGroup;
+			children = (
+				286DC02A29000BDB00D61E1B /* National Cartoon.ttf */,
+				286DC02F290015BA00D61E1B /* Fairy Godmother DEMO.otf */,
+				281F93322901A6EB0080CDB0 /* Travel October.ttf */,
+				286DC0AA290164A900D61E1B /* Donuts Snacky Regular.ttf */,
+				286DC04329001B4D00D61E1B /* A Bug s Life.ttf */,
+				286DC0A82901633A00D61E1B /* NewWaltDisneyUi-8YdA.ttf */,
+				286DC0372900183000D61E1B /* Monster AG.ttf */,
+				286DC02D290012BF00D61E1B /* Cutest Round.otf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		286DC0932901526B00D61E1B /* Forzen */ = {
+			isa = PBXGroup;
+			children = (
+				286DC098290153BC00D61E1B /* Forzenmovie.swift */,
+				286DC0942901529B00D61E1B /* Forzenmovie2.swift */,
+				286DC09A290155E900D61E1B /* Fintroductionlist.swift */,
+				286DC09C2901560400D61E1B /* Fcharacterlist.swift */,
+				286DC0A2290156AE00D61E1B /* FAversionlist.swift */,
+				286DC0A4290156BF00D61E1B /* FLversionlist.swift */,
+				286DC09E2901561A00D61E1B /* FAversion.swift */,
+				286DC0A02901562700D61E1B /* FLversion.swift */,
+			);
+			path = Forzen;
+			sourceTree = "<group>";
+		};
 		28B1924728FBD9AA002E6FBD = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +236,22 @@
 		28B1925228FBD9AA002E6FBD /* disney world */ = {
 			isa = PBXGroup;
 			children = (
+				286DC02C29000C3C00D61E1B /* disney world.entitlements */,
+				286DC01C28FFDBA000D61E1B /* disney-world-Info.plist */,
 				28B1925328FBD9AA002E6FBD /* disney_worldApp.swift */,
 				28B1925528FBD9AA002E6FBD /* ContentView.swift */,
+				286DC0AE29016D7A00D61E1B /* tabviwe.swift */,
+				28B1927128FEB882002E6FBD /* home.swift */,
+				286DC028290007C900D61E1B /* DisneyIntro.mp3 */,
+				281F93362901BE1C0080CDB0 /* youtube */,
+				286DC02328FFE3AA00D61E1B /* movie */,
+				286DC04929001EA100D61E1B /* movie2 */,
+				286DC0802901462900D61E1B /* movie3 */,
+				286DC08D2901518100D61E1B /* ally */,
+				286DC0932901526B00D61E1B /* Forzen */,
+				286DC02428FFE3FC00D61E1B /* link */,
+				286DC02528FFE41500D61E1B /* ig */,
+				286DC090290151E800D61E1B /* font */,
 				28B1925728FBD9AC002E6FBD /* Assets.xcassets */,
 				28B1925928FBD9AC002E6FBD /* Preview Content */,
 			);
@@ -125,8 +324,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				286DC02B29000BDB00D61E1B /* National Cartoon.ttf in Resources */,
+				286DC02E290012BF00D61E1B /* Cutest Round.otf in Resources */,
 				28B1925B28FBD9AC002E6FBD /* Preview Assets.xcassets in Resources */,
+				286DC0AB290164A900D61E1B /* Donuts Snacky Regular.ttf in Resources */,
+				286DC029290007C900D61E1B /* DisneyIntro.mp3 in Resources */,
+				286DC04429001B4D00D61E1B /* A Bug s Life.ttf in Resources */,
+				286DC030290015BA00D61E1B /* Fairy Godmother DEMO.otf in Resources */,
+				281F93332901A6EB0080CDB0 /* Travel October.ttf in Resources */,
+				286DC0A92901633A00D61E1B /* NewWaltDisneyUi-8YdA.ttf in Resources */,
 				28B1925828FBD9AC002E6FBD /* Assets.xcassets in Resources */,
+				286DC0382900183000D61E1B /* Monster AG.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +345,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				281F933A2901C91C0080CDB0 /* youtubeview.swift in Sources */,
+				28B1927228FEB882002E6FBD /* home.swift in Sources */,
+				286DC0A12901562700D61E1B /* FLversion.swift in Sources */,
+				286DC0A5290156BF00D61E1B /* FLversionlist.swift in Sources */,
 				28B1925628FBD9AA002E6FBD /* ContentView.swift in Sources */,
+				286DC02028FFE33E00D61E1B /* movierow.swift in Sources */,
+				28B1926A28FEA250002E6FBD /* ig_data.swift in Sources */,
+				286DC08F290151AE00D61E1B /* allymovie2.swift in Sources */,
+				286DC04D2900200500D61E1B /* movie2row.swift in Sources */,
+				281F93352901BE150080CDB0 /* youtubedata.swift in Sources */,
+				286DC0952901529B00D61E1B /* Forzenmovie2.swift in Sources */,
 				28B1925428FBD9AA002E6FBD /* disney_worldApp.swift in Sources */,
+				286DC07D2901461100D61E1B /* Aversion.swift in Sources */,
+				286DC07B290145F600D61E1B /* character.swift in Sources */,
+				286DC04F290020ED00D61E1B /* movie2data.swift in Sources */,
+				28D0286028FF290800714A3C /* linkdetail.swift in Sources */,
+				286DC07F2901461D00D61E1B /* Lversion.swift in Sources */,
+				28B1926628FBE758002E6FBD /* ig_page.swift in Sources */,
+				28F1CDE828FED56700801BC2 /* linkdata.swift in Sources */,
+				286DC08229014A6D00D61E1B /* introductionlist.swift in Sources */,
+				286DC08429014A8900D61E1B /* characterlist.swift in Sources */,
+				286DC08829014AAF00D61E1B /* Aversionlist.swift in Sources */,
+				286DC09B290155E900D61E1B /* Fintroductionlist.swift in Sources */,
+				28B1927028FEB1E2002E6FBD /* Eric.swift in Sources */,
+				286DC02728FFE47300D61E1B /* moviedata.swift in Sources */,
+				286DC08A29014ABB00D61E1B /* Lversionlist.swift in Sources */,
+				286DC0A3290156AE00D61E1B /* FAversionlist.swift in Sources */,
+				286DC09D2901560400D61E1B /* Fcharacterlist.swift in Sources */,
+				286DC0AF29016D7A00D61E1B /* tabviwe.swift in Sources */,
+				286DC099290153BC00D61E1B /* Forzenmovie.swift in Sources */,
+				286DC01E28FFE16C00D61E1B /* movielist.swift in Sources */,
+				286DC0512900239600D61E1B /* introdution.swift in Sources */,
+				286DC0972901537E00D61E1B /* allymovie.swift in Sources */,
+				286DC09F2901561A00D61E1B /* FAversion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,11 +504,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "disney world/disney world.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"disney world/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "disney-world-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -292,11 +534,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "disney world/disney world.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"disney world/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "disney-world-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
