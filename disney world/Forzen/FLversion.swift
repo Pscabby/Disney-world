@@ -9,11 +9,7 @@ import SwiftUI
 
 struct FLversion: View {
     var body: some View {
-        NavigationLink {
-            Lversion()
-        } label: {
-            movie2row(movie2: .demo4)
-        }
+        youtubeview2(yt: .elsaL)
     }
 }
 

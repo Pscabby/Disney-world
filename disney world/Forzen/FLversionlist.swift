@@ -10,7 +10,7 @@ import SwiftUI
 struct FLversionlist: View {
     var body: some View {
         NavigationLink {
-            Lversion()
+            FLversion()
         } label: {
             movie2row(movie2: .demo4)
         }

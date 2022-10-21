@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "1628604854_youloveit_com_frozen_cute_profile_pictures_elsa_and_anna05.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

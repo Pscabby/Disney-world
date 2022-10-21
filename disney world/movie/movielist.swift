@@ -12,6 +12,7 @@ struct movie_list: View {
         List{
             allymovie()
             Forzenmovie()
+            Bellemovie()
         }
         .navigationTitle("Disney lists")
         .navigationBarTitleDisplayMode(.automatic)

@@ -10,7 +10,7 @@ import SwiftUI
 struct FAversionlist: View {
     var body: some View {
         NavigationLink {
-            Aversion()
+            FAversion()
         } label: {
             movie2row(movie2: .demo3)
         }

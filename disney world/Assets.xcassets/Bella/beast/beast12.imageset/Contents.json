@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Beauty_and_the_Beast_dvd_010a0773-2f1c-4447-9c6d-1330bceb7824.jpg.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -10,7 +10,7 @@ import SwiftUI
 struct Fcharacterlist: View {
     var body: some View {
         NavigationLink {
-            character()
+            elsacharacter()
         } label: {
             movie2row(movie2: .demo2)
         }

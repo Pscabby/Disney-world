@@ -10,7 +10,7 @@ import SwiftUI
 struct Fintroductionlist: View {
     var body: some View {
         NavigationLink {
-            introdution()
+            introdution(introdata: .elsa)
         } label: {
             movie2row(movie2: .demomovie2)
         }

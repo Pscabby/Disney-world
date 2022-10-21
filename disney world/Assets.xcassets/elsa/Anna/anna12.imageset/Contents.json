@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "AnyConv.com__CEBA0D4D-01DE-4AA1-80F8-B673B643A2ED.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

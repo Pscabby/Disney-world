@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Beauty-And-The-Beast-walt-disney-characters-24493525-280-253.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

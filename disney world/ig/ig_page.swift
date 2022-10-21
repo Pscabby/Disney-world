@@ -84,7 +84,7 @@ struct ig_page: View {
                 }
             }
         }
-        .navigationTitle(igd.movie)
+//        .navigationTitle(igd.movie)
     }
 }
 

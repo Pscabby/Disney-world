@@ -9,11 +9,7 @@ import SwiftUI
 
 struct FAversion: View {
     var body: some View {
-        NavigationLink {
-            Aversion()
-        } label: {
-            movie2row(movie2: .demo3)
-        }
+        youtubeview2(yt: .elsaA)
     }
 }
 
