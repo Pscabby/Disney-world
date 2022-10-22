@@ -42,11 +42,6 @@ struct ContentView: View {
                         tabviwe()
                     } label:{
                         VStack{
-//                            Image("flightE")
-//                                .resizable()
-//                                .scaledToFit()
-//                                .clipShape(Circle())
-//                                .frame(width: 100)
                             Text("Start Your Magic journey")
                                 .font(.custom("Travel October", size: 40))
                                 .foregroundColor(.brown)

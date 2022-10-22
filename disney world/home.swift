@@ -55,7 +55,7 @@ struct home: View {
                                         let fileUrl = Bundle.main.url(forResource: "DisneyIntro", withExtension: "mp3")!
                                         let item = AVPlayerItem(url: fileUrl)
                                         self.looper = AVPlayerLooper(player: player, templateItem: item)
-                                    //player.play()
+                                    player.play()
                                 }
                     }
                     HStack(alignment:.firstTextBaseline){
