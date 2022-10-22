@@ -11,8 +11,10 @@ struct introdution: View {
     let introdata:introdata
     var body: some View {
         ZStack {
-            Color(.blue)
-                .opacity(0.2)
+//            Color(.blue)
+//                .opacity(0.2)
+//                .ignoresSafeArea()
+            LinearGradient(gradient: Gradient(colors: [Color.blue, Color.white]), startPoint: UnitPoint(x: 0, y: 0), endPoint: UnitPoint(x: 1, y: 1))
                 .ignoresSafeArea()
             VStack(alignment: .center) {
                 Image(introdata.pic)

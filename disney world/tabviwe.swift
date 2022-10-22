@@ -18,6 +18,10 @@ struct tabviwe: View {
                 .tabItem {
                     Label("Movie", systemImage:"popcorn")
                 }
+            more()
+                .tabItem {
+                    Label("More",systemImage: "plus.square.on.square")
+                }
         }
     }
 }
