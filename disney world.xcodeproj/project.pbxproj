@@ -62,6 +62,7 @@
 		286DC0A92901633A00D61E1B /* NewWaltDisneyUi-8YdA.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 286DC0A82901633A00D61E1B /* NewWaltDisneyUi-8YdA.ttf */; };
 		286DC0AB290164A900D61E1B /* Donuts Snacky Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 286DC0AA290164A900D61E1B /* Donuts Snacky Regular.ttf */; };
 		286DC0AF29016D7A00D61E1B /* tabviwe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286DC0AE29016D7A00D61E1B /* tabviwe.swift */; };
+		28703DBD290546170025D678 /* HotSlice Demo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28703DBC290546170025D678 /* HotSlice Demo.ttf */; };
 		28B1925428FBD9AA002E6FBD /* disney_worldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B1925328FBD9AA002E6FBD /* disney_worldApp.swift */; };
 		28B1925628FBD9AA002E6FBD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B1925528FBD9AA002E6FBD /* ContentView.swift */; };
 		28B1925828FBD9AC002E6FBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B1925728FBD9AC002E6FBD /* Assets.xcassets */; };
@@ -131,6 +132,7 @@
 		286DC0A82901633A00D61E1B /* NewWaltDisneyUi-8YdA.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NewWaltDisneyUi-8YdA.ttf"; sourceTree = "<group>"; };
 		286DC0AA290164A900D61E1B /* Donuts Snacky Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Donuts Snacky Regular.ttf"; sourceTree = "<group>"; };
 		286DC0AE29016D7A00D61E1B /* tabviwe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabviwe.swift; sourceTree = "<group>"; };
+		28703DBC290546170025D678 /* HotSlice Demo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HotSlice Demo.ttf"; sourceTree = "<group>"; };
 		28B1925028FBD9AA002E6FBD /* disney world.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "disney world.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B1925328FBD9AA002E6FBD /* disney_worldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = disney_worldApp.swift; sourceTree = "<group>"; };
 		28B1925528FBD9AA002E6FBD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -276,6 +278,7 @@
 			children = (
 				283435C52902A7F200A7F753 /* Imagine Serif Stamp Rough.otf */,
 				283435C32902A79600A7F753 /* SummerBreak.otf */,
+				28703DBC290546170025D678 /* HotSlice Demo.ttf */,
 				286DC02A29000BDB00D61E1B /* National Cartoon.ttf */,
 				286DC02F290015BA00D61E1B /* Fairy Godmother DEMO.otf */,
 				281F93322901A6EB0080CDB0 /* Travel October.ttf */,
@@ -418,6 +421,7 @@
 				286DC02B29000BDB00D61E1B /* National Cartoon.ttf in Resources */,
 				286DC02E290012BF00D61E1B /* Cutest Round.otf in Resources */,
 				28B1925B28FBD9AC002E6FBD /* Preview Assets.xcassets in Resources */,
+				28703DBD290546170025D678 /* HotSlice Demo.ttf in Resources */,
 				286DC0AB290164A900D61E1B /* Donuts Snacky Regular.ttf in Resources */,
 				286DC029290007C900D61E1B /* DisneyIntro.mp3 in Resources */,
 				286DC04429001B4D00D61E1B /* A Bug s Life.ttf in Resources */,

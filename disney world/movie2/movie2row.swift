@@ -14,7 +14,7 @@ struct movie2row: View {
             Image(systemName: movie2.pic)
                 
             Text(movie2.text)
-                .font(.custom("Monster AG", size: 30))
+                .font(.custom("Travel October", size: 30))
                 .foregroundColor(.primary)
                 
             
