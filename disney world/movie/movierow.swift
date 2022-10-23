@@ -21,7 +21,7 @@ struct movie_row: View {
                 .shadow(radius: 10)
                 .padding(.trailing)
             Text(movie.name)
-                .font(.custom("Monster AG", size: 30))
+                .font(.custom("Travel October", size: 30))
                 .foregroundColor(.primary)
                 
             
